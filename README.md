@@ -7,3 +7,9 @@ Included is:
 - [Terraform](https://www.terraform.io/) (for terraform fmt)
 - [Tflint](https://github.com/terraform-linters/tflint)
 - [terraform-docs](https://github.com/terraform-docs/terraform-docs)
+
+# Usage
+
+Run the tools by calling
+
+    docker run -v "$PWD":/terraform ghcr.io/dodevops/terraform-module-tools:latest 
