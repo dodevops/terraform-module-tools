@@ -18,7 +18,7 @@ RUN TF_HW="amd64" && \
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-ENTRYPOINT /entrypoint.sh
+COPY .terraform-docs.yml /.terraform-docs.yml
 
+ENTRYPOINT /entrypoint.sh
 WORKDIR /terraform
-COPY .terraform-docs.yml .terraform-docs.yml

@@ -7,4 +7,4 @@ terraform fmt .
 echo "﹥ Running tflint"
 tflint
 echo "﹥ Running terraform-docs"
-terraform-docs .
+terraform-docs -c /.terraform-docs.yml .
