@@ -15,6 +15,9 @@ RUN TF_HW="amd64" && \
     chmod +x terraform-docs && \
     mv terraform-docs /usr/local/bin
 
+# tfsec
+RUN curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
+
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
