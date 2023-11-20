@@ -7,6 +7,7 @@ Included is:
 - [Terraform](https://www.terraform.io/) (for terraform fmt)
 - [Tflint](https://github.com/terraform-linters/tflint)
 - [terraform-docs](https://github.com/terraform-docs/terraform-docs)
+- [tfsec](https://github.com/aquasecurity/tfsec)
 
 # Usage
 
